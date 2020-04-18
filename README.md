@@ -1,4 +1,4 @@
-# 使用node的sftp一键部署前端静态资源到服务器
+# 使用node一键部署前端静态资源到服务器
 
 config.js里面添加配置
 
@@ -40,3 +40,7 @@ npm run deploy
 
 ```
 
+`上传到服务器之后，会执行shell命令，把www目录备份，www_prev,`
+`然后解压testFile.zip, 并且把testFile命名为www`
+
+## qq交流群：475870039
