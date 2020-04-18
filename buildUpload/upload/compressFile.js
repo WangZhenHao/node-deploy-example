@@ -12,7 +12,6 @@ function compressFile(config) {
 }
 
 function compressFn(outPutPath, targetDir) {
-  console.log(process.argv)
   return new Promise((resolve, reject) => {
     console.log('1-正在压缩文件...')
     // 创建文件写入流
