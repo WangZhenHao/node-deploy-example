@@ -1,4 +1,4 @@
-# node使用sftp部署前端静态资源到服务器
+# 使用node的sftp一键部署前端静态资源到服务器
 
 config.js里面添加配置
 
